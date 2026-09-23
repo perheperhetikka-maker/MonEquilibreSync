@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.tuuli.monequilibresync"
-    compileSdk = 37
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.tuuli.monequilibresync"
