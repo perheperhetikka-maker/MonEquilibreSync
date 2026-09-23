@@ -164,7 +164,7 @@ private fun SyncScreen(viewModel: MainViewModel = viewModel()) {
                 StatusCard("Health Connect doit être installé ou mis à jour.") {
                     Button(
                         onClick = {
-                            val provider = HealthConnectClient.DEFAULT_PROVIDER_PACKAGE_NAME
+                            val provider = "com.google.android.apps.healthdata"
                             val uri = Uri.parse(
                                 "market://details?id=$provider&url=healthconnect%3A%2F%2Fonboarding"
                             )
